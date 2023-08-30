@@ -214,7 +214,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+        @Test
     public void reductionVolume100() {
         Radio cond = new Radio();
         cond.setCurrentVolume(100);
@@ -224,7 +224,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+        @Test
     public void reductionVolume1() {
         Radio cond = new Radio();
         cond.setCurrentVolume(1);
